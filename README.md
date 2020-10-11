@@ -1,2 +1,2 @@
 # lv_anim
-Independent LVGL animation module
+> 独立的LVGL动画库模块，可脱离LVGL框架工作。

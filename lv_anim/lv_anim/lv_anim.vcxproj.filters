@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lv_anim">
+      <UniqueIdentifier>{ac615d65-f328-4b97-893b-88a6fa6f3103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lv_anim\lv_anim.c">
+      <Filter>lv_anim</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_anim\lv_hal_tick.c">
+      <Filter>lv_anim</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_anim\lv_ll.c">
+      <Filter>lv_anim</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_anim\lv_math.c">
+      <Filter>lv_anim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_anim\lv_anim.h">
+      <Filter>lv_anim</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_anim\lv_anim_conf.h">
+      <Filter>lv_anim</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_anim\lv_hal_tick.h">
+      <Filter>lv_anim</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_anim\lv_ll.h">
+      <Filter>lv_anim</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_anim\lv_math.h">
+      <Filter>lv_anim</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
